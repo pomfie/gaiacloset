@@ -1,0 +1,36 @@
+h1 {
+    font-size: 35px;
+    font-family: 'heartfullie';
+    text-shadow: 0px 0px 2px #dfb6bf;
+    color: #dfb6bf;
+}
+@font-face {
+    font-family: 'heartfullieregular';
+    src: url('heartfullie-regular-webfont.woff2') format('woff2'),
+         url('heartfullie-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+::selection {
+    color: #ffe4ef;
+    text-shadow: 0px 0px 3px #eeb7c5;
+}
+::-moz-selection {
+    color: #ffe4ef;
+    text-shadow: 0px 0px 3px #eeb7c5;
+}
+::-webkit-scrollbar-thumb {
+    background: transparent;
+    background-color: #ffeef5;
+    border: 1px dotted #f0a9b8;
+}
+::-webkit-scrollbar {   
+    width: 3px;
+    height: 4px;
+}
+a {
+    color: #e9bec7;
+    text-shadow: 0px 0px 1.7px;
+    text-decoration: dotted #e9bec7;
+}
